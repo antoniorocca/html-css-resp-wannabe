@@ -71,3 +71,81 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+  #lezioni {
+    height: 1000px;
+    margin-bottom: 350px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .row {
+    height: 1000px;
+    top: 0;
+    position: relative;
+  }
+}
+@media screen and (max-width: 420px) {
+  h1 {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .right {
+    position: absolute;
+    top: 850px;
+    left: 0;
+    padding: 40px;
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .left {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    padding: 30px;
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  #steps {
+    height: 1400px;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .central {
+    position: absolute;
+    top: 410px;
+    left: 0;
+    margin-top: 170px;
+    margin-left: 270px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .first {
+   padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #why h3 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #lezioni, #steps, #why {
+    background-color: white;
+  }
+}
